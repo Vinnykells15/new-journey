@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Responsive menu button</title>
+
+
+    <style>
+      .mobile-nav{
+        width: 30px;
+        height: 30px;
+        position: relative;
+      }
+
+      .mobile-nav span, .mobile-nav span:before, .mobile-nav span:after {
+        position: absolute;
+        height: 26px;
+        width: 2px;
+        background-color: #000;
+      }
+
+      .mobile-nav span:before {
+        content: '';
+        top: -7px;
+      }
+
+      .mobile-nav span:after{
+        content: '';
+        top: 7px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="mobile-nav"></div>
+    <span></span>
+    </div>
+  </body>
+</html>
